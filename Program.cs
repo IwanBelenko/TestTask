@@ -3,3 +3,12 @@
 
 string[] array0 = new string[8] {"Hello", "Russia", "Denmark", "Kazan", "computer since", "2", ";-)", "15"};
 string[] array1 = new string[array0.Length];
+
+void PrintArray(string[] array)
+{
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"[{array[i]}] ");
+    }
+    Console.WriteLine();
+}
